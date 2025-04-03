@@ -22,12 +22,22 @@ poetry add torch
 
 ## Build
 
-## Run
+```bash
+pip install -r requirements.txt
+```
+
+## Run API
 
 ```bash
+export PYTHONPATH=`pwd`
+python kullm/main.py
 ```
 
 
+## Run UI
 
+```bash
+streamlit run ui/app.py
+```
 
 
