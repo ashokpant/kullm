@@ -127,3 +127,4 @@ cython_debug/
 # PyCharm
 .idea/
 models
+*.DS_Store
